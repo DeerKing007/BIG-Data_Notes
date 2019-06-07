@@ -52,7 +52,7 @@ secondarynamenode的执行时刻，有如下两项配置决定：
 二者满足任何一点都会触发一次checkpoint
 ```
 
- ![持久化](png\持久化.png)
+ ![持久化](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/持久化.png)
 
 #### 2.3 数据恢复
 
@@ -174,7 +174,7 @@ bin/hdfs dfsadmin -refreshNodes
 
 > **Yarn框架图：**
 >
->  ![yarn_结构](png\yarn_结构.gif)
+>  ![yarn_结构](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/yarn_结构.gif)
 
 ### 2. 启动yarn
 
@@ -199,7 +199,7 @@ sbin/stop-yarn.sh  启动集群中各机器的resoucemanager和nodemanager
 ```
 ### 3. yarn集群详细流程【重点】
 
-![yarn-mr流程](png\yarn-mr流程.png)
+![yarn-mr流程](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/yarn-mr流程.png)
 
 
 
@@ -215,13 +215,13 @@ sbin/stop-yarn.sh  启动集群中各机器的resoucemanager和nodemanager
 >
 >   【input-->map-->shuffle-->reduce-->output】
 >
-> ![map-reduce流程](png\map-reduce流程.png)
+> ![map-reduce流程](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/map-reduce流程.png)
 
 ### 2. map-reduce流程实例
 
 > Word Count 单词计数
 
-![wordcount-mr](png\wordcount-mr.png)
+![wordcount-mr](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/wordcount-mr.png)
 
 ### 3. Word Count Python代码
 
@@ -266,9 +266,9 @@ OUTPUT_PATH="/demo2"
 HA架构的NameNode,由一个主节点对外提供服务，同时通过Zookeeper把主节点中的内容，自动的同步到备机中，保证主，备数据的一致。如果主机出现问题，备机会通过zookeeper自动升级主节点。原主机再启动namenode后会成为备机
 ```
 
-![1537342838016](png\1537342838016.png)
+![1537342838016](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/1537342838016.png)
 
-![主备同步](png\主备同步.png)
+![主备同步](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/主备同步.png)
 
 ### 1. 搭建zookeeper集群 
 
@@ -309,7 +309,7 @@ HA架构的NameNode,由一个主节点对外提供服务，同时通过Zookeeper
 可使用现有的hadoop集群，需要删除各机器 hadoop_home/data/tmp下的所有内容；
 如果没有可以按照第二天的笔记搭建即可
 ```
-![主机进程分布](png\主机进程分布.png)
+![主机进程分布](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/主机进程分布.png)
 
 ### 3. 配置Hadoop-HA
 
