@@ -46,9 +46,9 @@
 
 
 
- ![hbase的数据存储结构](png\hbase的数据存储结构.png)
+ ![hbase的数据存储结构](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/HBase/png/hbase的数据存储结构.png)
 
- ![hbase的数据存储结构2](png\hbase的数据存储结构2.png)
+ ![hbase的数据存储结构2](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/HBase/png/hbase的数据存储结构2.png)
 
 ## 三、HBase安装
 
@@ -299,10 +299,4 @@ scanner = table.scan() #查全表
 scanner = table.scan(columns=('address',),limit=2) #查询“address”列簇的，前2行
 print(list(scanner)) #转成list，或for循环打印
 ```
-
-
-
-​                  
-
-
 
