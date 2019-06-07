@@ -12,7 +12,7 @@
 5> 关闭防火墙：关闭服务，关闭自启
 6> 克隆+网络适配+hadoop安装+hadoop配置
 7> 安装zookeeper
-8> 如上主要参考 hadoop_day3笔记即可
+8> 如上主要参考 hadoop_03笔记即可
 ```
 
 ```markdown
@@ -149,7 +149,7 @@ hadoop3
 
 ### 1. HBase中表数据的存储架构
 
- ![hbase结构](png\hbase结构.png)
+ ![hbase结构](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/HBase/png/hbase结构.png)
 
 ### 2. Region裂变机制
 
