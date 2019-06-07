@@ -13,14 +13,14 @@ ifconfig
 ifconfig eth0 192.168.19.10
 ```
 
-![1537164634419](png\1537164634419.png)
+![1537164634419](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/1537164634419.png)
 
 > 3. 永久设置IP地址
 
 ```markdown
 vi /etc/sysconfig/network-script/ifcfg-eth0 
 ```
-![1537164634419](png\1537164634419.png)
+![1537164634419](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/1537164634419.png)
 
 > 4. 关闭防火墙
 
@@ -143,11 +143,11 @@ K -- M---- G ---- T ----PB  ---- EB  ---ZB  1024
 
 #### 2.1 怎么存
 
- ![hadoop基本结构](png\hadoop基本结构.png)
+ ![hadoop基本结构](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/hadoop基本结构.png)
 
 #### 2.2 怎么运算（处理）
 
-​       ![1537172748203](png\1537172748203.png)
+​       ![1537172748203](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/1537172748203.png)
 
 #### 2.3 大数据技术方案（Hadoop）
 
