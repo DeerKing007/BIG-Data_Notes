@@ -15,9 +15,9 @@ Hive 把HQL语句 通过MetaStore找到表和文件的映射关系后，将hql�
 HQL==Hive Query Language，类似sql
 ```
 
-![1534385788963](png\1534385788963.png)
+![1534385788963](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hive/png/1534385788963.png)
 
- ![hive_思路](png\hive_思路.png)
+ ![hive_思路](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hive/png/hive_思路.png)
 
 
 
