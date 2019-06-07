@@ -49,7 +49,7 @@ mapred-default.xml
 
 ## 三、HDFS的Client访问【重点】
 
-![1537239274885](png\1537239274885.png)
+![1537239274885](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/1537239274885.png)
 
 ### 1. HDFS Shell命令
 
@@ -94,7 +94,7 @@ bin/hdfs dfs -mv 原始位置 目标位置
 
 指令截图：
 
- ![1537242945926](png\1537242945926.png)
+ ![1537242945926](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/1537242945926.png)
 
 ### 2. HDFS的文件权限
 
@@ -115,7 +115,7 @@ bin/hdfs dfs -mv 原始位置 目标位置
 > http://hadoop.baizhiedu.com:50070  可以访问到hdfs中的namenode
 
 
-![1537241071516](png\1537241071516.png)
+![1537241071516](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/1537241071516.png)
 
 ### 4. HDFS的Python客户端
 
@@ -176,7 +176,7 @@ with client.read("/zhj/test.txt") as reader:
 
 ### 2. ssh 免密码登录
 
-​     ![1537253558502](png\1537253558502.png)
+​     ![1537253558502](https://github.com/DeerKing007/BIG-Data_Notes/blob/master/Hadoop/png/1537253558502.png)
 
 #### 2.1 如何生成公私钥对
 
